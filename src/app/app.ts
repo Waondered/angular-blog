@@ -1,9 +1,19 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { SmallCard } from './components/small-card/small-card';
+import { BigCard } from './components/big-card/big-card';
+import { MenuBar } from './components/menu-bar/menu-bar';
+import { MenuTitle } from './components/menu-title/menu-title';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [
+    RouterOutlet,
+    SmallCard,
+    BigCard,
+    MenuBar,
+    MenuTitle
+  ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

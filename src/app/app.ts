@@ -4,6 +4,7 @@ import { SmallCard } from './components/small-card/small-card';
 import { BigCard } from './components/big-card/big-card';
 import { MenuBar } from './components/menu-bar/menu-bar';
 import { MenuTitle } from './components/menu-title/menu-title';
+import { Home } from './pages/home/home';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import { MenuTitle } from './components/menu-title/menu-title';
     SmallCard,
     BigCard,
     MenuBar,
-    MenuTitle
+    MenuTitle,
+    Home
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'

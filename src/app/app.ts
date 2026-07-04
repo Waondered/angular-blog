@@ -10,10 +10,6 @@ import { Home } from './pages/home/home';
   selector: 'app-root',
   imports: [
     RouterOutlet,
-    SmallCard,
-    BigCard,
-    MenuBar,
-    MenuTitle,
     Home
   ],
   templateUrl: './app.html',

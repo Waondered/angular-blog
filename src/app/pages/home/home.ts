@@ -8,7 +8,6 @@ import { SmallCard } from '../../components/small-card/small-card';
   selector: 'app-home',
   imports: [
     MenuTitle,
-    MenuBar,
     BigCard,
     SmallCard
   ],
